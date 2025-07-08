@@ -6724,10 +6724,10 @@ textarea.form-control-lg {
 }
 
 .link-warning {
-  color: #ffc107 !important;
+  color: #01579b !important;
 }
 .link-warning:hover, .link-warning:focus {
-  color: #ffcd39 !important;
+  color: #013a63 !important;
 }
 
 .link-danger {
@@ -8056,7 +8056,7 @@ textarea.form-control-lg {
 
 .text-warning {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-warning-rgb), var(--bs-text-opacity)) !important;
+  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
 }
 
 .text-danger {
@@ -11005,8 +11005,20 @@ header.masthead h1, header.masthead .h1 {
   margin-bottom: 1rem;
   letter-spacing: 1px;
 }
+.site-footer h5 {
+  position: relative;
+  padding-bottom: 8px;
+}
+.site-footer h5::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 2px;
+  background-color: #ffffff;
+  margin: 0 auto;
+}
 .site-footer a {
-  color: #ffdb5c;
+  color: #ffffff;
   text-decoration: none;
 }
 .site-footer a:hover {
@@ -11017,10 +11029,27 @@ header.masthead h1, header.masthead .h1 {
   margin-bottom: 0.5rem;
 }
 .site-footer .social-icons a {
-  color: #ffdb5c;
+  color: #ffffff;
   margin-right: 0.75rem;
   font-size: 1.5rem;
 }
+.site-footer i,
+.site-footer .bi {
+  color: #ffffff;
+}
 .site-footer .social-icons a:last-child {
   margin-right: 0;
+}
+
+/* GetYourGuide widget color overrides */
+[data-gyg-widget] {
+  color: #212529 !important;
+}
+[data-gyg-widget] h1,
+[data-gyg-widget] h2,
+[data-gyg-widget] h3,
+[data-gyg-widget] h4,
+[data-gyg-widget] h5,
+[data-gyg-widget] h6 {
+  color: #01579b !important;
 }
