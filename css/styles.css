@@ -10994,10 +10994,32 @@ header.masthead h1, header.masthead .h1 {
   opacity: 1;
 }
 /* Custom footer styles */
-.site-footer .social-icons a {
-  color: inherit;
-  margin-right: 0.5rem;
+.site-footer {
+  background: linear-gradient(135deg, #004e92 0%, #000428 100%);
+  color: #f8f9fa;
+}
+.site-footer h3 {
+  color: #fff;
   font-size: 1.25rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+}
+.site-footer a {
+  color: #ffdb5c;
+  text-decoration: none;
+}
+.site-footer a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+.site-footer p {
+  margin-bottom: 0.5rem;
+}
+.site-footer .social-icons a {
+  color: #ffdb5c;
+  margin-right: 0.75rem;
+  font-size: 1.5rem;
 }
 .site-footer .social-icons a:last-child {
   margin-right: 0;
