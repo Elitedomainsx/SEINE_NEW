@@ -11032,6 +11032,7 @@ header.masthead h1, header.masthead .h1 {
 }
 .site-footer p {
   margin-bottom: 0.5rem;
+  font-weight: normal;
 }
 .site-footer .social-icons a {
   color: #ffffff;
