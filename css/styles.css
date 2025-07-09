@@ -10936,11 +10936,6 @@ header.masthead {
   background-size: cover;
 }
 
-@media (max-width: 991.98px) {
-  header.masthead {
-    background-position: right;    
-  }
-}
 header.masthead h1, header.masthead .h1 {
   font-size: 2.25rem;
 }
