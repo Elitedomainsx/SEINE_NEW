@@ -10938,7 +10938,7 @@ header.masthead {
 
 @media (max-width: 991.98px) {
   header.masthead {
-    background-position: center;    
+    background-position: right;    
   }
 }
 header.masthead h1, header.masthead .h1 {
