@@ -1,4 +1,4 @@
 User-agent: *
-Disallow:
+Disallow: /privacy.html
 
 Sitemap: https://seine.travel/sitemap.xml
