@@ -11004,6 +11004,16 @@ header.masthead h1, header.masthead .h1 {
   text-transform: uppercase;
   margin-bottom: 1rem;
   letter-spacing: 1px;
+  position: relative;
+  padding-bottom: 8px;
+}
+.site-footer h3::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 2px;
+  background-color: #ffffff;
+  margin: 0.5rem auto 0;
 }
 .site-footer h5 {
   position: relative;
@@ -11020,10 +11030,11 @@ header.masthead h1, header.masthead .h1 {
 .site-footer a {
   color: #ffffff;
   text-decoration: none;
+  transition: color 0.2s ease-in-out;
 }
 .site-footer a:hover {
-  color: #ffffff;
-  text-decoration: none;
+  color: #0dcaf0;
+  text-decoration: underline;
 }
 .site-footer p {
   margin-bottom: 0.5rem;
