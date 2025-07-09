@@ -11023,13 +11023,12 @@ header.masthead h1, header.masthead .h1 {
   background-color: #ffffff;
 }
 .site-footer a {
-  color: #ffffff;
+  color: #f0f0f0;
   text-decoration: none;
-  transition: color 0.2s ease-in-out;
+  transition: color 0.3s ease;
 }
 .site-footer a:hover {
-  color: #0dcaf0;
-  text-decoration: underline;
+  color: #b3e5fc;
 }
 .site-footer p {
   margin-bottom: 0.5rem;
