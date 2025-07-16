@@ -11060,3 +11060,8 @@ header.masthead h1, header.masthead .h1 {
 [data-gyg-widget] h6 {
   color: #01579b !important;
 }
+
+/* Custom table tweaks for the Seine.Travel site */
+.table-seine thead th {
+  border-bottom-width: 2px;
+}
